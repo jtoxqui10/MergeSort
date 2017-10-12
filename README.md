@@ -1,0 +1,2 @@
+# MergeSort
+mergeSort algorithm
