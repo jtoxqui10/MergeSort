@@ -33,24 +33,20 @@ void msort(int a[], int x[], int s, int e) {
     }
 }
 
-    
-
-
 void mergesort(int a[], int n) {
     int * x = new int[n];
     msort(a, x, 0, n - 1);
     delete []x;
 
 }
+
 bool sorted(int a[], int n) {
     for (int i = 0; i < n - 1; i++) {
         if (a[i] > a[i + 1]) {
             return false;
         }
-	
-
     }
-   return true;
+   	return true;
 }
 
 int main(int argc, char * args[]) {
